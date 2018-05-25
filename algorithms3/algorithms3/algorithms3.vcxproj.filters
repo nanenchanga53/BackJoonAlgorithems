@@ -36,5 +36,8 @@
     <ClCompile Include="SuffixArray알고리즘.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11478_서로다른부분문자열의개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
