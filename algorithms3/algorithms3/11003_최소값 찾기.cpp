@@ -35,7 +35,7 @@ int main()
 
 		if (i > l)
 		{
-			if (dq.front() == arr[i - 1])
+			if (dq.front() == arr[i - l])
 			{
 				dq.pop_front();
 			}
