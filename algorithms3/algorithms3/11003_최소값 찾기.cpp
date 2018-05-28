@@ -1,53 +1,22 @@
-#include<iostream>
-#include<queue>
-#include<algorithm>
-#include<iterator>
-#include<vector>
+#include <cstdio>
+#include <algorithm>
+#include <deque>
 using namespace std;
-
-int n,l;
-int arr[5000001];
-deque<int> dq;
-vector<int> vc;
-
-int main()
-{
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-		
-	cin >> n >> l;
-
-	for (int i = 1; i <= n; i++)
+int l, n, x;
+deque<pair<int, int>> dq;
+int main() {
+	scanf("%d%d", &n, &l);
+	for (int i = 1; i <= n; i++) 
 	{
-		cin >> arr[i];
+		while (dq.size() && dq.front().second <= i - l)
+			dq.pop_front();
 
-		if (dq.empty())
-		{
-			dq.push_back(arr[i]);
-		}
-		else
-		{
-			while (!dq.empty() && dq.back() > arr[i])
-				dq.pop_back();
+		scanf("%d", &x);
 
-			dq.push_back(arr[i]);
-		}
-
-		if (i > l)
-		{
-			if (dq.front() == arr[i - l])
-			{
-				dq.pop_front();
-			}
-		}
-
-		vc.push_back(dq.front());
+		while (dq.size() && dq.back().first >= x)
+			dq.pop_back();
+		dq.push_back({ x,i });
+		printf("%d ", dq.front().first);
 	}
-
-	for (int i = 0; i < n; i++)
-	{
-		cout << vc[i] << endl;
-	}
-	system("pause");
 	return 0;
 }
