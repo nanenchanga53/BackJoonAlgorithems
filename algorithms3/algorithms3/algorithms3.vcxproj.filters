@@ -48,5 +48,8 @@
     <ClCompile Include="2473_세용액.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2096_내려가기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
