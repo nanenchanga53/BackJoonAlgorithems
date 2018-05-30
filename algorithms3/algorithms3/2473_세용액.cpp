@@ -4,7 +4,7 @@
 using namespace std;
 
 int n;
-int arr[5001] = { 0, };
+long long arr[5001] = { 0, };
 
 int a, b, c;
 int m = 3000000001;
