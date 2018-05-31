@@ -60,5 +60,8 @@
     <ClCompile Include="10815_숫자카드.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1300_k번째 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
