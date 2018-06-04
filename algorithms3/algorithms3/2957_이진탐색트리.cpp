@@ -9,11 +9,22 @@ int n, k;
 
 map<int, long long> mapArr;
 
-int InsertDepth(int x,long long depth)
+
+int InsertDepth(int x)
 {
+	int in;
 	map<int, long long>::iterator lower_bound;
 	map<int, long long>::iterator upper_bound;
 
+	long long depth = 0;
+
+	//key가 x인 요소의 이전, 다음 요소
+	lower_bound = (--mapArr.lower_bound(x));
+	upper_bound = (mapArr.upper_bound(x));
+	depth = max(lower_bound->second, upper_bound->second) + 1;
+
+	mapArr.insert(make_pair(x, depth));
+	return depth;
 
 }
 
@@ -31,9 +42,10 @@ int main()
 	{
 		long long depth = 0;
 		fastscan(num);
-		depth = InsertDepth(num,depth);
+		depth = InsertDepth(num);
 
 		C += depth;
+		printf("%lld\n", C);
 	}
 
 	system("pause");
