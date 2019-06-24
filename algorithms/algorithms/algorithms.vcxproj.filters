@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\1_입출력받아보기">
+      <UniqueIdentifier>{afd94973-5e72-4050-8078-1471e3e9f226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2_사칙연산 도전하기">
+      <UniqueIdentifier>{42b9d5c2-6d02-49bb-b3ea-bf095eef1ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3_for문">
+      <UniqueIdentifier>{5864fc91-a5b0-407a-8087-9adc781c6595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4_if문">
+      <UniqueIdentifier>{690bcb2a-6ab2-4ca0-ba97-147f35acf0e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2675_문자열반복.cpp">
@@ -164,6 +176,48 @@
     </ClCompile>
     <ClCompile Include="1552_빠른AplusB.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2557_HelloWorld.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
+    <ClCompile Include="1000_AplusB.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
+    <ClCompile Include="1001_AminusB.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
+    <ClCompile Include="7287_등록.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
+    <ClCompile Include="10172_개.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
+    <ClCompile Include="10718_WeLoveKrili.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
+    <ClCompile Include="11718_그대로출력하기.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
+    <ClCompile Include="11719_그대로출력하기2.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
+    <ClCompile Include="10998_AXB.cpp">
+      <Filter>소스 파일\2_사칙연산 도전하기</Filter>
+    </ClCompile>
+    <ClCompile Include="1008_AdivB.cpp">
+      <Filter>소스 파일\2_사칙연산 도전하기</Filter>
+    </ClCompile>
+    <ClCompile Include="10869_사칙연산.cpp">
+      <Filter>소스 파일\2_사칙연산 도전하기</Filter>
+    </ClCompile>
+    <ClCompile Include="10430_나머지.cpp">
+      <Filter>소스 파일\2_사칙연산 도전하기</Filter>
+    </ClCompile>
+    <ClCompile Include="2558_AplusBminus2.cpp">
+      <Filter>소스 파일\2_사칙연산 도전하기</Filter>
+    </ClCompile>
+    <ClCompile Include="2839_설탕배달.cpp">
+      <Filter>소스 파일\2_사칙연산 도전하기</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
