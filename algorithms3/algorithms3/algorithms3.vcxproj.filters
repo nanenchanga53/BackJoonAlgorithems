@@ -72,6 +72,12 @@
     <ClCompile Include="3038_완전이진트리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13325_이진 트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2098_외판원 순회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
