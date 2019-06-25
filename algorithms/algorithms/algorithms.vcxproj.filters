@@ -219,5 +219,8 @@
     <ClCompile Include="2839_설탕배달.cpp">
       <Filter>소스 파일\2_사칙연산 도전하기</Filter>
     </ClCompile>
+    <ClCompile Include="10171_고양이.cpp">
+      <Filter>소스 파일\1_입출력받아보기</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
