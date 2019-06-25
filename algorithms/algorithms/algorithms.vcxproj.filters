@@ -234,5 +234,11 @@
     <ClCompile Include="2753_윤년.cpp">
       <Filter>소스 파일\2_if문</Filter>
     </ClCompile>
+    <ClCompile Include="2884_알람 시계.cpp">
+      <Filter>소스 파일\2_if문</Filter>
+    </ClCompile>
+    <ClCompile Include="10817_세 수.cpp">
+      <Filter>소스 파일\2_if문</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
