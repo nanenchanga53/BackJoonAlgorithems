@@ -228,5 +228,11 @@
     <ClCompile Include="1330_두 수 비교하기.cpp">
       <Filter>소스 파일\2_if문</Filter>
     </ClCompile>
+    <ClCompile Include="9498_시험 성적.cpp">
+      <Filter>소스 파일\2_if문</Filter>
+    </ClCompile>
+    <ClCompile Include="2753_윤년.cpp">
+      <Filter>소스 파일\2_if문</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
