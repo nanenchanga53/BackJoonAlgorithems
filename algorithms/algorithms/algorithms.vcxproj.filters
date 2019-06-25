@@ -225,5 +225,8 @@
     <ClCompile Include="2588_곱셈.cpp">
       <Filter>소스 파일\1_입출력과 사칙연산</Filter>
     </ClCompile>
+    <ClCompile Include="1330_두 수 비교하기.cpp">
+      <Filter>소스 파일\2_if문</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
