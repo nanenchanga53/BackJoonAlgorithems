@@ -273,5 +273,14 @@
     <ClCompile Include="10871_X보다 작은 수.cpp">
       <Filter>소스 파일\3_for문</Filter>
     </ClCompile>
+    <ClCompile Include="10952_AplusB_5.cpp">
+      <Filter>소스 파일\4_while문</Filter>
+    </ClCompile>
+    <ClCompile Include="10951_AplusB_4.cpp">
+      <Filter>소스 파일\4_while문</Filter>
+    </ClCompile>
+    <ClCompile Include="1110_더하기 사이클.cpp">
+      <Filter>소스 파일\4_while문</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
