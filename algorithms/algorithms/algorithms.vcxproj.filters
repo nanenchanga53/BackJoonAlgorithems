@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\4_while문">
       <UniqueIdentifier>{690bcb2a-6ab2-4ca0-ba97-147f35acf0e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\5_1차원배열">
+      <UniqueIdentifier>{8c0f2f8e-ccec-4655-962c-0884f8bcdccd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2675_문자열반복.cpp">
@@ -281,6 +284,24 @@
     </ClCompile>
     <ClCompile Include="1110_더하기 사이클.cpp">
       <Filter>소스 파일\4_while문</Filter>
+    </ClCompile>
+    <ClCompile Include="2562_최댓값.cpp">
+      <Filter>소스 파일\5_1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="2577_숫자의개수.cpp">
+      <Filter>소스 파일\5_1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="1546_평균.cpp">
+      <Filter>소스 파일\5_1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="8958_OX퀴즈.cpp">
+      <Filter>소스 파일\5_1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="2920_음계.cpp">
+      <Filter>소스 파일\5_1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="4344_평균은 넘겠지.cpp">
+      <Filter>소스 파일\5_1차원배열</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
