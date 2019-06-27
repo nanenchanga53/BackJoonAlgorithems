@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\5_1차원배열">
       <UniqueIdentifier>{8c0f2f8e-ccec-4655-962c-0884f8bcdccd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\6_함수">
+      <UniqueIdentifier>{aafdfab5-248f-43b0-b3db-03f832b7b9b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2675_문자열반복.cpp">
@@ -302,6 +305,27 @@
     </ClCompile>
     <ClCompile Include="4344_평균은 넘겠지.cpp">
       <Filter>소스 파일\5_1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="4673_셀프넘버.cpp">
+      <Filter>소스 파일\6_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="1065_한수.cpp">
+      <Filter>소스 파일\6_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="10870_피보나치수_5.cpp">
+      <Filter>소스 파일\6_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="15596_정수N개의합.cpp">
+      <Filter>소스 파일\6_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="10872_팩토리얼.cpp">
+      <Filter>소스 파일\6_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="2447_별찍기_10.cpp">
+      <Filter>소스 파일\6_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="11729_하노이탑.cpp">
+      <Filter>소스 파일\6_함수</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
