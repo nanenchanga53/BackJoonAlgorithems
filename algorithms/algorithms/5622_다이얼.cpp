@@ -28,10 +28,10 @@ void mapping()
 	m['P'] = 7;
 	m['Q'] = 7;
 	m['R'] = 7;
-	m['S'] = 8;
+	m['S'] = 7;
 	m['T'] = 8;
 	m['U'] = 8;
-	m['V'] = 9;
+	m['V'] = 8;
 	m['W'] = 9;
 	m['X'] = 9;
 	m['Y'] = 9;
@@ -51,7 +51,7 @@ int main()
 	{
 		sum += m[dial[i]];
 	}
-	sum += i;
+	sum += strlen(dial);
 	cout << sum << endl;
 	system("pause");
 	return 0;

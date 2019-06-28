@@ -31,23 +31,11 @@
     <Filter Include="소스 파일\6_함수">
       <UniqueIdentifier>{aafdfab5-248f-43b0-b3db-03f832b7b9b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7_문자열">
+      <UniqueIdentifier>{51e80796-69d8-429f-b021-c81d91264b0d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2675_문자열반복.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1157_단어공부.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1316_그룹단어체커.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5622_다이얼.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2941_크로아티아 알파벳.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2292_벌집.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -178,9 +166,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10844_쉬운계단수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1552_빠른AplusB.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2557_HelloWorld.cpp">
@@ -326,6 +311,36 @@
     </ClCompile>
     <ClCompile Include="11729_하노이탑.cpp">
       <Filter>소스 파일\6_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="5622_다이얼.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="11654_아스키코드.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="11720_숫자의합.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="10809_알파벳찾기.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2675_문자열반복.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="1157_단어공부.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="1552_단어의개수.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2908_상수.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2941_크로아티아 알파벳.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="1316_그룹단어체커.cpp">
+      <Filter>소스 파일\7_문자열</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
