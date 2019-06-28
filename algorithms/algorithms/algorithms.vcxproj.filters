@@ -34,29 +34,11 @@
     <Filter Include="소스 파일\7_문자열">
       <UniqueIdentifier>{51e80796-69d8-429f-b021-c81d91264b0d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\8_규칙찾기%28수정예정%29">
+      <UniqueIdentifier>{6571f390-3943-4420-829f-d0f3eae546a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2292_벌집.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1193_분수찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1011_알파센츄리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10250_ACM호텔.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2775_부녀회장이될테야.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1475_방 번호.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6064_카잉달력.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2750_수정렬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -341,6 +323,33 @@
     </ClCompile>
     <ClCompile Include="1316_그룹단어체커.cpp">
       <Filter>소스 파일\7_문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2438_별찍기_1.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="2292_벌집.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1193_분수찾기.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1011_알파센츄리.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="10250_ACM호텔.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1924_2007년.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="2775_부녀회장이될테야.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1475_방 번호.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+    </ClCompile>
+    <ClCompile Include="6064_카잉달력.cpp">
+      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
