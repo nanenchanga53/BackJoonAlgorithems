@@ -34,7 +34,7 @@
     <Filter Include="소스 파일\7_문자열">
       <UniqueIdentifier>{51e80796-69d8-429f-b021-c81d91264b0d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\8_규칙찾기%28수정예정%29">
+    <Filter Include="소스 파일\8_수학1">
       <UniqueIdentifier>{6571f390-3943-4420-829f-d0f3eae546a7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -183,9 +183,6 @@
     <ClCompile Include="2558_AplusBminus2.cpp">
       <Filter>소스 파일\1_입출력과 사칙연산</Filter>
     </ClCompile>
-    <ClCompile Include="2839_설탕배달.cpp">
-      <Filter>소스 파일\1_입출력과 사칙연산</Filter>
-    </ClCompile>
     <ClCompile Include="10430_나머지.cpp">
       <Filter>소스 파일\1_입출력과 사칙연산</Filter>
     </ClCompile>
@@ -324,32 +321,47 @@
     <ClCompile Include="1316_그룹단어체커.cpp">
       <Filter>소스 파일\7_문자열</Filter>
     </ClCompile>
-    <ClCompile Include="2438_별찍기_1.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
-    </ClCompile>
     <ClCompile Include="2292_벌집.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+      <Filter>소스 파일\8_수학1</Filter>
     </ClCompile>
     <ClCompile Include="1193_분수찾기.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
-    </ClCompile>
-    <ClCompile Include="1011_알파센츄리.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+      <Filter>소스 파일\8_수학1</Filter>
     </ClCompile>
     <ClCompile Include="10250_ACM호텔.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
-    </ClCompile>
-    <ClCompile Include="1924_2007년.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+      <Filter>소스 파일\8_수학1</Filter>
     </ClCompile>
     <ClCompile Include="2775_부녀회장이될테야.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
-    </ClCompile>
-    <ClCompile Include="1475_방 번호.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+      <Filter>소스 파일\8_수학1</Filter>
     </ClCompile>
     <ClCompile Include="6064_카잉달력.cpp">
-      <Filter>소스 파일\8_규칙찾기%28수정예정%29</Filter>
+      <Filter>소스 파일\8_수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="1475_방 번호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2438_별찍기_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1924_2007년.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10818_최소최대.cpp">
+      <Filter>소스 파일\5_1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="3052_나머지.cpp">
+      <Filter>소스 파일\5_1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="2839_설탕배달.cpp">
+      <Filter>소스 파일\8_수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="1011_알파센츄리.cpp">
+      <Filter>소스 파일\8_수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="1712_손익분기점.cpp">
+      <Filter>소스 파일\8_수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="2869_달팽이는 올라가고 싶다.cpp">
+      <Filter>소스 파일\8_수학1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
