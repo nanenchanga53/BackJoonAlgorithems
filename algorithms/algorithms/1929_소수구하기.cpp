@@ -34,7 +34,7 @@ int main()
 
 	for (int i = m; i <= n; i++)
 		if (num[i] == true)
-			cout << i << endl;
+			cout << i << endl; //제출할때는 printf("%d\n",i); 로하자
 
 	system("pause");
 	return 0;

@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\8_수학1">
       <UniqueIdentifier>{6571f390-3943-4420-829f-d0f3eae546a7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9_수학2">
+      <UniqueIdentifier>{b22c8507-508c-469e-87fd-b4a90bd1ee0f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2750_수정렬.cpp">
@@ -55,21 +58,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1181_단어정렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1978_소수찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2581_소수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1929_소수구하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4948_베르트랑 공준.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9020_골드바흐의 추측.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10828_스택.cpp">
@@ -362,6 +350,36 @@
     </ClCompile>
     <ClCompile Include="2869_달팽이는 올라가고 싶다.cpp">
       <Filter>소스 파일\8_수학1</Filter>
+    </ClCompile>
+    <ClCompile Include="1978_소수찾기.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="2581_소수.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="1929_소수구하기.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="4948_베르트랑 공준.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="9020_골드바흐의 추측.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="3053_택시기하학.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="1085_직사각형에서탈출.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="3009_네번째점.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="4153_직각삼각형.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
+    </ClCompile>
+    <ClCompile Include="1002_터렛.cpp">
+      <Filter>소스 파일\9_수학2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
