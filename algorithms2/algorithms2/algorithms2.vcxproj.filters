@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\10_브루트포스">
       <UniqueIdentifier>{55707897-57ea-4149-8260-d615824129c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\11_정렬">
+      <UniqueIdentifier>{a09883af-92be-4779-b0bc-02bcc8ab102b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -248,6 +251,33 @@
     </ClCompile>
     <ClCompile Include="1436_영화감독숌.cpp">
       <Filter>소스 파일\10_브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="10989_수정렬3.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="2750_수정렬.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="2751_수정렬2.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="2108_통계학.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="1427_소트인사이드.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="1181_단어정렬.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="11650_좌표정렬하기.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="11651_좌표정렬하기2.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="10814_나이순정렬.cpp">
+      <Filter>소스 파일\11_정렬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
