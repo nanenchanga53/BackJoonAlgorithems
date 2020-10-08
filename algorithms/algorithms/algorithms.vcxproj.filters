@@ -366,5 +366,8 @@
     <ClCompile Include="1002_터렛.cpp">
       <Filter>소스 파일\9_수학2</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Source\Repos\BackjoonAlgorithem\BackjoonAlgorithem\14681_사분면.cpp">
+      <Filter>소스 파일\2_if문</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -3,19 +3,23 @@
 using namespace std;
 int main()
 {
-	char t[101];
+	char word[101];
 	int alpa[28] = { 0, };
-	cin.getline(t, 100);
+	cin >> word;
+	cin.clear();
 
-	for (int i = 0; i < 26; i++)
-		alpa[i] = -1;
+	/*string word;
+	getline(cin, word);
+	cin.clear();*/
 
-	int len = strlen(t);
+	memset(alpa, -1, sizeof(alpa));
+
+	int len = strlen(word);
 
 	for (int i = 0; i < len; i++)
 	{
-		if (alpa[t[i] - 'a'] == -1)
-			alpa[t[i] - 'a'] = i;
+		if (alpa[word[i] - 'a'] == -1)
+			alpa[word[i] - 'a'] = i;
 	}
 
 	for (int i = 0; i < 26; i++)
@@ -24,5 +28,6 @@ int main()
 		if (i < 25)
 			cout << " ";
 	}
+	cout << endl;
 	return 0;
 }
