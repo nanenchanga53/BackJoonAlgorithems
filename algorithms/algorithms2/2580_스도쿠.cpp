@@ -4,14 +4,13 @@
 #include<algorithm>
 #include<vector>
 #include<cstring>
+#define squarePoint(a,b) (3 * ((a-1) / 3)) + ((b-1) / 3) + 1
 using namespace std;
 
 vector<pair<int,int>> emptyPoint;
 
 int sdoku[10][10] = { 0, };
-int emptyRows[10] = { 0, }, emptyCols[10] = { 0, }, emptySqaure[4][4] = { 0, };
-bool usedNum[10] = { 0, };
-
+bool usedRows[10][10] = { 0, }, usedCols[10][10] = { 0, }, usedSquare[10][10] = { 0, };
 void printSdoku(int row, int col, int num)
 {
 	printf("---------------\n");
@@ -39,93 +38,37 @@ void printSdoku()
 	}
 }
 
-//열 찾아보기
-bool FindCols(int row, int col)
+void SolveSdoku()
 {
-	bool isFind = false;
-
-	if (emptyCols[col] == 1)
+	if (emptyPoint.empty())
 	{
-		memset(usedNum, 0, sizeof(usedNum));
-		for (int i = 1; i <= 9; i++)
-		{
-			usedNum[sdoku[i][col]] = true;
-		}
-		for (int i = 1; i <= 9; i++)
-		{
-			if (!usedNum[i])
-			{
-				sdoku[row][col] = i;
-				//printSdoku(row, col, i);
-				break;
-				
-			}
-		}
-		isFind = true;
-		
+		printSdoku();
+		exit(0);
 	}
-
-	return isFind;
-
-}
-
-//행 찾아보기
-bool FindRows(int row, int col)
-{
-	bool isFind = false;
-
-	if (emptyRows[col] == 1)
+	else
 	{
-		memset(usedNum, 0, sizeof(usedNum));
-		for (int i = 1; i <= 9; i++)
+		pair<int, int> nowPoint = emptyPoint.back();
+
+		for (int k = 1; k <= 9; k++)
 		{
-			usedNum[sdoku[row][i]] = true;
-		}
-		for (int i = 1; i <= 9; i++)
-		{
-			if (!usedNum[i])
+			if (!usedRows[nowPoint.first][k] && !usedCols[nowPoint.second][k] && !usedSquare[squarePoint(nowPoint.first, nowPoint.second)][k])
 			{
-				sdoku[row][col] = i;
-				//printSdoku(row, col, i);
-				break;
+				sdoku[nowPoint.first][nowPoint.second] = k;
+				usedRows[nowPoint.first][k] = true;
+				usedCols[nowPoint.second][k] = true;
+				usedSquare[squarePoint(nowPoint.first, nowPoint.second)][k] = true;
+				emptyPoint.pop_back();
+				SolveSdoku();				
+				sdoku[nowPoint.first][nowPoint.second] = k;
+				usedRows[nowPoint.first][k] = false;
+				usedCols[nowPoint.second][k] = false;
+				usedSquare[squarePoint(nowPoint.first, nowPoint.second)][k] = false;
+				emptyPoint.push_back(nowPoint);
+
 			}
 		}
-		isFind = true;
 	}
-
-	return isFind;
-}
-
-//사각형 찾아보기
-bool FindSqaure(int row, int col)
-{
-	bool isFind = false;
-	int rowSqaure = (row - 1) / 3 + 1;
-	int colSqaure = (col - 1) / 3 + 1;
-	if (emptySqaure[rowSqaure][colSqaure] == 1)
-	{
-		memset(usedNum, 0, sizeof(usedNum));
-
-		for (int i = rowSqaure * 3; i >= rowSqaure * 3 - 2; i--)
-		{
-			for (int j = colSqaure * 3; j >= colSqaure * 3 - 2; j--)
-			{
-				usedNum[sdoku[i][j]] = true;
-			}
-		}
-		for (int i = 1; i <= 9; i++)
-		{
-			if (!usedNum[i])
-			{
-				sdoku[row][col] = i;
-				//printSdoku(row, col, i);
-				break;
-			}
-		}
-		isFind = true;
-	}
-	return isFind;
-
+	
 }
 
 int main()
@@ -136,35 +79,19 @@ int main()
 		{
 			scanf("%d", &sdoku[i][j]);
 			if (sdoku[i][j] == 0)
-			{
+			{			
 				emptyPoint.push_back(pair<int, int>(i, j));
-				emptyRows[i]++;
-				emptyCols[j]++;
-				emptySqaure[(i - 1) / 3 + 1][(j - 1) / 3 + 1]++;
+				
+			}
+			else if(sdoku[i][j] != 0)
+			{
+				usedRows[i][sdoku[i][j]] = true;
+				usedCols[j][sdoku[i][j]] = true;
+				usedSquare[squarePoint(i, j)][sdoku[i][j]] = true;
 			}
 		}
 	}
 	
-	while (!emptyPoint.empty())
-	{
-		for (int i = 0; i < emptyPoint.size(); i++)
-		{
-			
-			if (FindCols(emptyPoint[i].first, emptyPoint[i].second) || FindRows(emptyPoint[i].first, emptyPoint[i].second) || FindSqaure(emptyPoint[i].first, emptyPoint[i].second))
-			{
-				int col, row;
-				row = emptyPoint[i].first;
-				col = emptyPoint[i].second;
-				
-				emptyRows[row]--;
-				emptyCols[col]--;
-				emptySqaure[(row - 1) / 3 + 1][(col - 1) / 3 + 1]--;
-				emptyPoint.erase(emptyPoint.begin() + i);
-				i--;
-			}
-			
-		}
-	}
-	printSdoku();
+	SolveSdoku();
 	return 0;
 }
