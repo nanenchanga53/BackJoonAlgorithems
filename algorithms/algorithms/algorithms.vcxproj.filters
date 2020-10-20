@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\9_수학2">
       <UniqueIdentifier>{b22c8507-508c-469e-87fd-b4a90bd1ee0f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10_재귀">
+      <UniqueIdentifier>{d5c9a55f-b1d0-44bd-b8d3-49562cfdff54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="9426_중앙값.cpp">
@@ -84,9 +87,6 @@
     <ClCompile Include="2749_피보나치3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1003_피보나치 함수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="11050_이항계수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -105,22 +105,7 @@
     <ClCompile Include="9375_패션왕신해빈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1149_RGB거리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1932_숫자 삼각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2579_계단오르기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1463_1로만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1005_acm크래프트.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10844_쉬운계단수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2557_HelloWorld.cpp">
@@ -249,19 +234,7 @@
     <ClCompile Include="1065_한수.cpp">
       <Filter>소스 파일\6_함수</Filter>
     </ClCompile>
-    <ClCompile Include="10870_피보나치수_5.cpp">
-      <Filter>소스 파일\6_함수</Filter>
-    </ClCompile>
     <ClCompile Include="15596_정수N개의합.cpp">
-      <Filter>소스 파일\6_함수</Filter>
-    </ClCompile>
-    <ClCompile Include="10872_팩토리얼.cpp">
-      <Filter>소스 파일\6_함수</Filter>
-    </ClCompile>
-    <ClCompile Include="2447_별찍기_10.cpp">
-      <Filter>소스 파일\6_함수</Filter>
-    </ClCompile>
-    <ClCompile Include="11729_하노이탑.cpp">
       <Filter>소스 파일\6_함수</Filter>
     </ClCompile>
     <ClCompile Include="5622_다이얼.cpp">
@@ -368,6 +341,18 @@
     </ClCompile>
     <ClCompile Include="14681_사분면.cpp">
       <Filter>소스 파일\2_if문</Filter>
+    </ClCompile>
+    <ClCompile Include="10872_팩토리얼.cpp">
+      <Filter>소스 파일\10_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="10870_피보나치수_5.cpp">
+      <Filter>소스 파일\10_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="2447_별찍기_10.cpp">
+      <Filter>소스 파일\10_재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="11729_하노이탑.cpp">
+      <Filter>소스 파일\10_재귀</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
