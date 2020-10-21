@@ -351,5 +351,11 @@
     <ClCompile Include="1931_회의실배정.cpp">
       <Filter>소스 파일\15_그리디알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="11399_ATM.cpp">
+      <Filter>소스 파일\15_그리디알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="1541_잃어버린괄호.cpp">
+      <Filter>소스 파일\15_그리디알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
