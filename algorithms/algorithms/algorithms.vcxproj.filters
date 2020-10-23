@@ -87,22 +87,13 @@
     <ClCompile Include="2749_피보나치3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="11050_이항계수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="11401_이항계수 3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1676_팩토리얼 0의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2407_조합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="6591_이항쇼다운.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9375_패션왕신해빈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1005_acm크래프트.cpp">
