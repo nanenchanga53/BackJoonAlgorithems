@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\17_스택">
       <UniqueIdentifier>{302aa7fe-c24f-4f4d-aa87-d40af57c5455}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\18_큐,덱">
+      <UniqueIdentifier>{6f8a582e-8cfe-4e92-8917-3633f9e3edbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -401,6 +404,9 @@
     </ClCompile>
     <ClCompile Include="4949_균형잡힌세상.cpp">
       <Filter>소스 파일\17_스택</Filter>
+    </ClCompile>
+    <ClCompile Include="18258_큐2.cpp">
+      <Filter>소스 파일\18_큐,덱</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
