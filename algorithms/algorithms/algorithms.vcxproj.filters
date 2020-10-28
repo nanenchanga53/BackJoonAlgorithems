@@ -66,21 +66,6 @@
     <ClCompile Include="1260_DFSBFS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1966_프린터큐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11866_조세퍼스 문제0.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10866_덱.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1021_회전하는 큐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="5430_AC.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2747_피보나치 수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>

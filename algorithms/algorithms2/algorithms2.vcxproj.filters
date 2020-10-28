@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\18_큐,덱">
       <UniqueIdentifier>{6f8a582e-8cfe-4e92-8917-3633f9e3edbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\19_분할정복">
+      <UniqueIdentifier>{994051fa-0c33-44d1-b211-3b7d10575f29}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -406,6 +409,24 @@
       <Filter>소스 파일\17_스택</Filter>
     </ClCompile>
     <ClCompile Include="18258_큐2.cpp">
+      <Filter>소스 파일\18_큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="2164_카드2.cpp">
+      <Filter>소스 파일\18_큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\11866_조세퍼스 문제0.cpp">
+      <Filter>소스 파일\18_큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\10866_덱.cpp">
+      <Filter>소스 파일\18_큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\5430_AC.cpp">
+      <Filter>소스 파일\18_큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\1021_회전하는 큐.cpp">
+      <Filter>소스 파일\18_큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\1966_프린터큐.cpp">
       <Filter>소스 파일\18_큐,덱</Filter>
     </ClCompile>
   </ItemGroup>
