@@ -120,9 +120,6 @@
     <ClCompile Include="1991_트리순회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1992_쿼드트리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2178_미로탐색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -130,9 +127,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2252_줄세이기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2261_가장 가까운 두점.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2263_트리의순회.cpp">
@@ -159,9 +153,6 @@
     <ClCompile Include="2667_단지번호붙이기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2740_행렬곱셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2965_캥거루세마리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -172,9 +163,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="3665_최종순위.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="6549_히스토그램에서 가장 큰 직사각형.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="7469_k번째숫자.cpp">
@@ -428,6 +416,36 @@
     </ClCompile>
     <ClCompile Include="..\algorithms\1966_프린터큐.cpp">
       <Filter>소스 파일\18_큐,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="2630_색종이만들기.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="1992_쿼드트리.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="1780_종이의개수.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="1629_곱셈.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\11401_이항계수 3.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="2740_행렬곱셈.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="10830_행렬제곱.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\2749_피보나치3.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="6549_히스토그램에서 가장 큰 직사각형.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="2261_가장 가까운 두점.cpp">
+      <Filter>소스 파일\19_분할정복</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
