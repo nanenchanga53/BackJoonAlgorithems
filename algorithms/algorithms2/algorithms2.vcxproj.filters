@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\19_분할정복">
       <UniqueIdentifier>{994051fa-0c33-44d1-b211-3b7d10575f29}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\20_이분탐색">
+      <UniqueIdentifier>{62caffe3-bd2c-46b3-8a25-11fd60011537}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -446,6 +449,27 @@
     </ClCompile>
     <ClCompile Include="2261_가장 가까운 두점.cpp">
       <Filter>소스 파일\19_분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms3\1920_수찾기.cpp">
+      <Filter>소스 파일\20_이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="10816_숫자카드2.cpp">
+      <Filter>소스 파일\20_이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms3\1654_랜선 자르기.cpp">
+      <Filter>소스 파일\20_이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="2805_나무자르기.cpp">
+      <Filter>소스 파일\20_이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="2110_공유기설치.cpp">
+      <Filter>소스 파일\20_이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms3\1300_k번째 수.cpp">
+      <Filter>소스 파일\20_이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="12015_가장긴증가하는부분수열2.cpp">
+      <Filter>소스 파일\20_이분탐색</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

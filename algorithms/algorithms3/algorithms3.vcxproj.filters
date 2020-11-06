@@ -51,16 +51,7 @@
     <ClCompile Include="2096_내려가기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1920_수찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1654_랜선 자르기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="10815_숫자카드.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1300_k번째 수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2957_이진탐색트리.cpp">
