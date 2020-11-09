@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\20_이분탐색">
       <UniqueIdentifier>{62caffe3-bd2c-46b3-8a25-11fd60011537}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\21_우선순위 큐">
+      <UniqueIdentifier>{b92a20a9-df4b-402e-86dd-ef4e911191b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -470,6 +473,18 @@
     </ClCompile>
     <ClCompile Include="12015_가장긴증가하는부분수열2.cpp">
       <Filter>소스 파일\20_이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="11279_최대힙.cpp">
+      <Filter>소스 파일\21_우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="1927_최소힙.cpp">
+      <Filter>소스 파일\21_우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="11286_절대값 힙.cpp">
+      <Filter>소스 파일\21_우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="1655_가운데를말해요.cpp">
+      <Filter>소스 파일\21_우선순위 큐</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
