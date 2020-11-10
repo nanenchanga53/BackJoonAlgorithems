@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\21_우선순위 큐">
       <UniqueIdentifier>{b92a20a9-df4b-402e-86dd-ef4e911191b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\22_동적계획법2">
+      <UniqueIdentifier>{1ec50119-7256-46a5-949d-fc5f6f8458d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -85,9 +88,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1516_게임개발.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1520_내리막길.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1547_공.cpp">
@@ -136,9 +136,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2263_트리의순회.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2293_동전1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2309일곱난쟁이.cpp">
@@ -202,9 +199,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11004_k번째수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11066_파일합치기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11657_타임머신.cpp">
@@ -485,6 +479,21 @@
     </ClCompile>
     <ClCompile Include="1655_가운데를말해요.cpp">
       <Filter>소스 파일\21_우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="2293_동전1.cpp">
+      <Filter>소스 파일\22_동적계획법2</Filter>
+    </ClCompile>
+    <ClCompile Include="11066_파일합치기.cpp">
+      <Filter>소스 파일\22_동적계획법2</Filter>
+    </ClCompile>
+    <ClCompile Include="11049_행렬곱셈순서.cpp">
+      <Filter>소스 파일\22_동적계획법2</Filter>
+    </ClCompile>
+    <ClCompile Include="1520_내리막길.cpp">
+      <Filter>소스 파일\22_동적계획법2</Filter>
+    </ClCompile>
+    <ClCompile Include="7579_앱.cpp">
+      <Filter>소스 파일\22_동적계획법2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
