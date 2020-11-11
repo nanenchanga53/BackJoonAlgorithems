@@ -495,5 +495,8 @@
     <ClCompile Include="7579_앱.cpp">
       <Filter>소스 파일\22_동적계획법2</Filter>
     </ClCompile>
+    <ClCompile Include="10942_팰린드롬물음표.cpp">
+      <Filter>소스 파일\22_동적계획법2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
