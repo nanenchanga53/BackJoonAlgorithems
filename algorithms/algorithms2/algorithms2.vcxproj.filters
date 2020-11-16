@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\22_동적계획법2">
       <UniqueIdentifier>{1ec50119-7256-46a5-949d-fc5f6f8458d6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\23_DFS와BFS">
+      <UniqueIdentifier>{a16b2916-62d5-4abd-928a-48e215dff07a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -126,9 +129,6 @@
     <ClCompile Include="1991_트리순회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2178_미로탐색.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2250_트리의높이와너비.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -150,12 +150,6 @@
     <ClCompile Include="2490_윷놀이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2606_바이러스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2667_단지번호붙이기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2965_캥거루세마리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -169,12 +163,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="7469_k번째숫자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7569_토마토2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7576_토마토.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="9252_LCS2.cpp">
@@ -498,8 +486,29 @@
     <ClCompile Include="10942_팰린드롬물음표.cpp">
       <Filter>소스 파일\22_동적계획법2</Filter>
     </ClCompile>
+    <ClCompile Include="1697_숨바꼭질.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\1260_DFSBFS.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="2606_바이러스.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="2667_단지번호붙이기.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
     <ClCompile Include="1012_유기농배추.cpp">
-      <Filter>소스 파일\22_동적계획법2</Filter>
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="2178_미로탐색.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="7576_토마토.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="7569_토마토2.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
