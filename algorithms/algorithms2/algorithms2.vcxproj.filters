@@ -510,5 +510,8 @@
     <ClCompile Include="7569_토마토2.cpp">
       <Filter>소스 파일\23_DFS와BFS</Filter>
     </ClCompile>
+    <ClCompile Include="2206_벽부수고이동하기.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
