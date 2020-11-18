@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\23_DFS와BFS">
       <UniqueIdentifier>{a16b2916-62d5-4abd-928a-48e215dff07a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\24_최단경로">
+      <UniqueIdentifier>{64379f78-ce18-40b7-8d5d-1c1be8fb5c80}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -94,12 +97,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1547_공.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1753_최단경로.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1753_최단경로풀이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1766_문제집.cpp">
@@ -512,6 +509,12 @@
     </ClCompile>
     <ClCompile Include="2206_벽부수고이동하기.cpp">
       <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="1753_최단경로.cpp">
+      <Filter>소스 파일\24_최단경로</Filter>
+    </ClCompile>
+    <ClCompile Include="1753_최단경로풀이.cpp">
+      <Filter>소스 파일\24_최단경로</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

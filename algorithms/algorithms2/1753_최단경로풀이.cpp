@@ -76,6 +76,6 @@ int main()
 	for (int i = 1; i < V; i++)
 		ans[i] == INT_MAX ? printf("INF\n") : printf("%d\n", ans[i]);
 
-	system("pause");
+	
 	return 0;
 }

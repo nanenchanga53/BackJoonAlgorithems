@@ -2,7 +2,8 @@
 #include<algorithm>
 #include<vector>
 #include<queue>
-#include<string>
+#include<cstring>
+#include <climits>
 using namespace std;
 
 int V, E, K;
@@ -10,16 +11,16 @@ int dist[20001] = { 0 };
 struct line_info
 {
 	int now;
-	int last;
 	int value;
 };
 
 bool operator < (line_info t, line_info u)
 {
+	
 	return t.value > u.value;
 }
 
-vector<vector<pair<int,int>>> graph;
+vector<pair<int,int>> graph[20001];
 priority_queue<line_info> heap;
 
 int readInt()
@@ -54,8 +55,6 @@ int main()
 	E = readInt();
 	K = readInt();
 
-	graph.resize(V+1);
-
 	for (int i = 0; i < E; i++)
 	{
 		pair<int, int> t;
@@ -69,12 +68,11 @@ int main()
 
 	line_info info;
 	info.now = K;
-	info.last = K;
 	info.value = 0;
 	heap.push(info);
 
-	for (int i = 1; i <= V; i++)
-		dist[i] = 20001;
+	for (int i = 0; i <= V; i++)
+		dist[i] = INT_MAX;
 	
 	dist[K] = 0;
 
@@ -94,16 +92,13 @@ int main()
 		for (int i = 0; i < graph[top_info.now].size(); i++)
 		{
 			int there = graph[top_info.now][i].first;
-			int nextDist = dist[top_info.now] + graph[top_info.now][i].second;
+			int nextDist = top_info.value + graph[top_info.now][i].second;
 
 			if(dist[there] > nextDist)
 			//if (dist[graph[top_info.now][i].first] > graph[top_info.now][i].second)
 			{
 				dist[there] = nextDist;
-				info.last = top_info.now;
-				info.now = graph[top_info.now][i].first;
-				info.value = graph[top_info.now][i].second;
-				heap.push(info);
+				heap.push({there,nextDist});
 			}
 
 		}
@@ -112,11 +107,11 @@ int main()
 
 	for (int i = 1; i <= V; i++)
 	{
-		if (dist[i] < 20001)
-			cout << dist[i] << endl;
+		if (dist[i] == INT_MAX)
+			cout << "INF" << '\n';
 		else
-			cout << "INF" << endl;
+			cout << dist[i] << '\n';
 	}
-	system("pause");
+	
 	return 0;
 }
