@@ -90,9 +90,6 @@
     <ClCompile Include="1325_효율적인해킹.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1504_특정한최단경로.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1516_게임개발.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -514,6 +511,12 @@
       <Filter>소스 파일\24_최단경로</Filter>
     </ClCompile>
     <ClCompile Include="1753_최단경로풀이.cpp">
+      <Filter>소스 파일\24_최단경로</Filter>
+    </ClCompile>
+    <ClCompile Include="1504_특정한최단경로.cpp">
+      <Filter>소스 파일\24_최단경로</Filter>
+    </ClCompile>
+    <ClCompile Include="9370_미확인도착지.cpp">
       <Filter>소스 파일\24_최단경로</Filter>
     </ClCompile>
   </ItemGroup>
