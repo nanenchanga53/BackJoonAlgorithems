@@ -183,9 +183,6 @@
     <ClCompile Include="11004_k번째수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="11657_타임머신.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="11689_GCD1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -517,6 +514,9 @@
       <Filter>소스 파일\24_최단경로</Filter>
     </ClCompile>
     <ClCompile Include="9370_미확인도착지.cpp">
+      <Filter>소스 파일\24_최단경로</Filter>
+    </ClCompile>
+    <ClCompile Include="11657_타임머신.cpp">
       <Filter>소스 파일\24_최단경로</Filter>
     </ClCompile>
   </ItemGroup>

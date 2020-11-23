@@ -10,7 +10,7 @@ using namespace std;
 #define MAXNUM 2147483647
 
 int n, m, w, T;
-int dist[501];
+long long dist[501]; //범위가 넘어가서 출력초가 날 수 있으므로 Int론 안됨
 vector<pair<int, int>> adj[501];
 
 bool velmanpord()
@@ -44,8 +44,9 @@ bool velmanpord()
 
 int main()
 {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr), cout.tie(nullptr);
+
 	cin >> n >> m;
 	for (int i = 1; i <= m; i++)
 	{
@@ -58,17 +59,17 @@ int main()
 
 	if (minCycle)
 	{
-		cout << "-1" << endl;
+		cout << "-1" << '\n';
 	}
 	else
 	{
-		for (int i = 1 + 1; i <= n; i++)
+		for (int i = 2; i <= n; i++)
 		{
 			int print;
 			print = dist[i] != MAXNUM ? dist[i] : -1;
-			cout << print << endl;
+			cout << print << '\n';
 		}
 	}
-	system("pause");
+
 	return 0;
 }
