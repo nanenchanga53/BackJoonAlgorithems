@@ -24,10 +24,10 @@ bool velmanpord()
 		{
 			for (auto &next : adj[j]) //minus cycle
 			{
-				if (dist[j] != MAXNUM && dist[next.first] > dist[j] + next.second)
+				if (dist[j] != MAXNUM && dist[next.first] > dist[j] + next.second) //갱신
 				{
 					dist[next.first] = dist[j] + next.second;
-					if (i == n)
+					if (i == n) //마지막 위치에서 뭔가 갱신할 일이 생겼다면 마이너스 서클이 발생했다는 것
 					{
 						minusCycle = true;
 					}
