@@ -4,10 +4,11 @@
 #include<queue>
 #include<string>
 using namespace std;
-#define MAXNUM 2147483647
+
 
 int T;
 int n, m, k;
+const int MAXNUM = 1000000007;
 
 struct node
 {
@@ -21,56 +22,51 @@ struct node
 	}
 };
 
-int dp[101][10001];
+int dp[101][10001] = { 0, };
 vector<node> adj[101];
 
 
-int dijkstra(int nodes, int money)
+int dijkstra()
 {
-	for (int i = 1; i <= nodes; i++)
+	for (int i = 0; i <= n; i++)
 	{
-		for (int j = 0; j <= money; j++)
+		for (int j = 0; j <= m; j++)
 		{
 			dp[i][j] = MAXNUM;
 		}
 	}
 	priority_queue<node> pq;
 
-	pq.push({ 1 ,money,0 });
-	dp[1][money] = 0;
+	pq.push({ 1 ,0, 0 });
+	dp[1][0] = 0;
 
 	while (!pq.empty())
 	{
 		node tmp = pq.top();
 		pq.pop();
-
+		
+		int pos = tmp.pos;
 		int cost = tmp.cost;
 		int dtime = tmp.time;
-		int pos = tmp.pos;
 
-		if (pos != 1 && dp[pos][cost] <= dtime)
+		if (dp[pos][cost] < dtime)
 			continue;
-
-		dp[pos][cost] = dtime;
-
-		if (pos == nodes)
-		{
-			break;
-		}
 
 		for (auto &next : adj[pos])
 		{
-			if (cost - next.cost >= 0 && dp[next.pos][cost - next.cost] > dp[pos][cost] + next.time)
+			if (cost + next.cost > m) continue;
+			if (dp[next.pos][cost + next.cost] > dtime + next.time)
 			{
-				pq.push({ next.pos, cost - next.cost, dp[pos][cost] + next.time });
+				pq.push({ next.pos, cost + next.cost, dp[pos][cost] + next.time });
+				dp[next.pos][cost + next.cost] = dtime + next.time;
 			}
 		}
 	}
 
 	int ans = MAXNUM;
-	for (int i = 0; i <= money; i++)
+	for (int i = 1; i <= m; i++)
 	{
-		ans = min(ans, dp[nodes][i]);
+		ans = min(ans, dp[n][i]);
 	}
 
 	return ans;
@@ -82,12 +78,12 @@ int dijkstra(int nodes, int money)
 
 int main()
 {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	int u, v, w;
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr), cout.tie(nullptr);
 
 	cin >> T;
+
+	int u, v, c, d;
 
 	while (T--)
 	{
@@ -95,23 +91,23 @@ int main()
 
 		while (k--)
 		{
-			int u, v, c, d;
+			
 			cin >> u >> v >> c >> d;
 			adj[u].push_back({ v, c, d });
 
 		}
 
-		int r = dijkstra(n, m);
-		if (r < MAXNUM)
-			cout << r << endl;
+		int r = dijkstra();
+		if (r == MAXNUM)
+			cout << "Poor KCM" << '\n';
 		else
-			cout << "Poor KCM" << endl;
+			cout << r << '\n';
 
 		for (int i = 0; i <= n; i++)
 		{
 			adj[i].clear();
 		}
 	}
-	system("pause");
+
 	return 0;
 }
