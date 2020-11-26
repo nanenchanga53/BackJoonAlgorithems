@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\24_최단경로">
       <UniqueIdentifier>{64379f78-ce18-40b7-8d5d-1c1be8fb5c80}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\25_동적계획법3">
+      <UniqueIdentifier>{39f80b45-2e46-4a84-9f8a-87ba22cf6c50}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -524,6 +527,9 @@
     </ClCompile>
     <ClCompile Include="1956_운동.cpp">
       <Filter>소스 파일\24_최단경로</Filter>
+    </ClCompile>
+    <ClCompile Include="11723_집합.cpp">
+      <Filter>소스 파일\25_동적계획법3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
