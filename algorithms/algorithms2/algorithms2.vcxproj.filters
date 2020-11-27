@@ -534,5 +534,8 @@
     <ClCompile Include="..\algorithms3\2098_외판원 순회.cpp">
       <Filter>소스 파일\25_동적계획법3</Filter>
     </ClCompile>
+    <ClCompile Include="1086_박성원.cpp">
+      <Filter>소스 파일\25_동적계획법3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
