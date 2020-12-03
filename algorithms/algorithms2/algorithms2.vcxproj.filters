@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\25_동적계획법3">
       <UniqueIdentifier>{39f80b45-2e46-4a84-9f8a-87ba22cf6c50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\26_동적 계획법과 최단거리 역추적">
+      <UniqueIdentifier>{64ee2744-7f15-451f-b3a9-d065687b83cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -160,9 +163,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="7469_k번째숫자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="9252_LCS2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10216_countcirclegroups.cpp">
@@ -542,6 +542,12 @@
     </ClCompile>
     <ClCompile Include="2482_색상환.cpp">
       <Filter>소스 파일\25_동적계획법3</Filter>
+    </ClCompile>
+    <ClCompile Include="9252_LCS2.cpp">
+      <Filter>소스 파일\26_동적 계획법과 최단거리 역추적</Filter>
+    </ClCompile>
+    <ClCompile Include="12852_1로만들기2.cpp">
+      <Filter>소스 파일\26_동적 계획법과 최단거리 역추적</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
