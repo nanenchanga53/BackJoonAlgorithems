@@ -549,5 +549,8 @@
     <ClCompile Include="12852_1로만들기2.cpp">
       <Filter>소스 파일\26_동적 계획법과 최단거리 역추적</Filter>
     </ClCompile>
+    <ClCompile Include="14002_가장긴증가하는부분수열4.cpp">
+      <Filter>소스 파일\26_동적 계획법과 최단거리 역추적</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
