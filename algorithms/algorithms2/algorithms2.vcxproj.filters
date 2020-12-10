@@ -561,5 +561,8 @@
     <ClCompile Include="13913_숨바꼭질4.cpp">
       <Filter>소스 파일\26_동적 계획법과 최단거리 역추적</Filter>
     </ClCompile>
+    <ClCompile Include="9019_dslr.cpp">
+      <Filter>소스 파일\26_동적 계획법과 최단거리 역추적</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
