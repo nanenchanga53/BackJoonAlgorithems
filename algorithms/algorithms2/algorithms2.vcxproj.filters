@@ -61,6 +61,15 @@
     <Filter Include="소스 파일\26_동적 계획법과 최단거리 역추적">
       <UniqueIdentifier>{64ee2744-7f15-451f-b3a9-d065687b83cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\27_투포인터">
+      <UniqueIdentifier>{0c649142-3106-4e91-9cff-b6721eca4a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\28_트리">
+      <UniqueIdentifier>{2832fa2d-3055-4970-9972-0ddffa737293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\29_유니온파인드">
+      <UniqueIdentifier>{3e1269a9-87f4-4db6-8947-ad54d4fffcac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -85,9 +94,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1094_막대기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1167_트리의지름.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1289_트리의가중치.cpp">
@@ -120,22 +126,13 @@
     <ClCompile Include="1963_트리 색칠하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1967_트리의 지름.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1977_완전제곱수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1991_트리순회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2250_트리의높이와너비.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2252_줄세이기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2263_트리의순회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2309일곱난쟁이.cpp">
@@ -184,9 +181,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11689_GCD1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11725_트리의 부모찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11778_피보나치 수와 최대공약수.cpp">
@@ -563,6 +557,30 @@
     </ClCompile>
     <ClCompile Include="9019_dslr.cpp">
       <Filter>소스 파일\26_동적 계획법과 최단거리 역추적</Filter>
+    </ClCompile>
+    <ClCompile Include="11779_최소비용구하기2.cpp">
+      <Filter>소스 파일\26_동적 계획법과 최단거리 역추적</Filter>
+    </ClCompile>
+    <ClCompile Include="11725_트리의 부모찾기.cpp">
+      <Filter>소스 파일\28_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="1167_트리의지름.cpp">
+      <Filter>소스 파일\28_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="1967_트리의 지름.cpp">
+      <Filter>소스 파일\28_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="1991_트리순회.cpp">
+      <Filter>소스 파일\28_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="2263_트리의순회.cpp">
+      <Filter>소스 파일\28_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms3\5639_이진검색트리.cpp">
+      <Filter>소스 파일\28_트리</Filter>
+    </ClCompile>
+    <ClCompile Include="1717_집합의표현.cpp">
+      <Filter>소스 파일\29_유니온파인드</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
