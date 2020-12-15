@@ -594,5 +594,8 @@
     <ClCompile Include="9372_상근이의여행.cpp">
       <Filter>소스 파일\30_최소신장트리</Filter>
     </ClCompile>
+    <ClCompile Include="1197_최소스패닝트리.cpp">
+      <Filter>소스 파일\30_최소신장트리</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
