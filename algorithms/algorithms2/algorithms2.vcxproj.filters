@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\29_유니온파인드">
       <UniqueIdentifier>{3e1269a9-87f4-4db6-8947-ad54d4fffcac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\30_최소신장트리">
+      <UniqueIdentifier>{13eb3e90-665b-4ea4-9a5b-eb89fd930c82}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1015_수열정렬.cpp">
@@ -587,6 +590,9 @@
     </ClCompile>
     <ClCompile Include="4195_친구네트워크.cpp">
       <Filter>소스 파일\29_유니온파인드</Filter>
+    </ClCompile>
+    <ClCompile Include="9372_상근이의여행.cpp">
+      <Filter>소스 파일\30_최소신장트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

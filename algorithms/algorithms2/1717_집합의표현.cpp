@@ -16,6 +16,18 @@ int FindParent(int num)
         }
 }
 
+void Union(int n1, int n2)
+{
+        n1 = FindParent(n1);
+        n2 = FindParent(n2);
+
+        if (n1 != n2)
+        {
+                parent[n2] = n1;
+        }
+}
+
+
 int main()
 {
 
