@@ -600,5 +600,11 @@
     <ClCompile Include="4386_별자리만들기.cpp">
       <Filter>소스 파일\30_최소신장트리</Filter>
     </ClCompile>
+    <ClCompile Include="1774_우주신과의교감.cpp">
+      <Filter>소스 파일\30_최소신장트리</Filter>
+    </ClCompile>
+    <ClCompile Include="2887_행성터널.cpp">
+      <Filter>소스 파일\30_최소신장트리</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
