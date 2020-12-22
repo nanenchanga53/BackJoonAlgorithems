@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\31_트리에서의 동적 계획법">
+      <UniqueIdentifier>{a252630c-8a8e-4444-acb0-fe664c6cfc0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2902_KMP는왜KMP.cpp">
@@ -62,6 +65,12 @@
     </ClCompile>
     <ClCompile Include="13325_이진 트리.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15681_트리와쿼리.cpp">
+      <Filter>소스 파일\31_트리에서의 동적 계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="2213_트리의 독립집합.cpp">
+      <Filter>소스 파일\31_트리에서의 동적 계획법</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

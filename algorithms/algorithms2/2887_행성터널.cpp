@@ -43,9 +43,9 @@ struct LineInfo
 };
 
 vector<LineInfo> pq;
-vector<LineInfo> res;
+//vector<LineInfo> res;
 
-bool compLine (LineInfo t, LineInfo u)
+bool compLine (LineInfo& t, LineInfo& u)
 {
 
 	return t.value < u.value;
@@ -100,34 +100,34 @@ int main()
 
 	sort(points.begin(), points.end(), compX);
 
-	for (int i = 0; i < points.size() - 1; i++)
+	for (int i = 0; i < n - 1; i++)
 	{
 		LineInfo t;
 		t.start = points[i].index;
 		t.goal = points[i + 1].index;
-		t.value = abs(points[i].x - points[i + 1].x);
+		t.value = points[i + 1].x - points[i].x;
 		pq.push_back(t);
 	}
 
 	sort(points.begin(), points.end(), compY);
 
-	for (int i = 0; i < points.size() - 1; i++)
+	for (int i = 0; i < n - 1; i++)
 	{
 		LineInfo t;
 		t.start = points[i].index;
 		t.goal = points[i + 1].index;
-		t.value = abs(points[i].y - points[i + 1].y);
+		t.value = points[i + 1].y - points[i].y;
 		pq.push_back(t);
 	}
 
 	sort(points.begin(), points.end(), compZ);
 
-	for (int i = 0; i < points.size() - 1; i++)
+	for (int i = 0; i < n - 1; i++)
 	{
 		LineInfo t;
 		t.start = points[i].index;
 		t.goal = points[i + 1].index;
-		t.value = abs(points[i].z - points[i + 1].z);
+		t.value = points[i + 1].z - points[i].z;
 		pq.push_back(t);
 	}
 
