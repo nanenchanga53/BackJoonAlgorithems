@@ -606,5 +606,8 @@
     <ClCompile Include="2887_행성터널.cpp">
       <Filter>소스 파일\30_최소신장트리</Filter>
     </ClCompile>
+    <ClCompile Include="9184_신나는함수실행.cpp">
+      <Filter>소스 파일\14_동적계획법1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
