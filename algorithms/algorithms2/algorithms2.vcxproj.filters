@@ -28,9 +28,6 @@
     <Filter Include="소스 파일\14_동적계획법1">
       <UniqueIdentifier>{effae95f-caaf-4838-956b-3379eeab45d6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\16_수학3">
-      <UniqueIdentifier>{2ab1511e-68ff-4409-b973-01ec54bf4f11}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\17_스택">
       <UniqueIdentifier>{302aa7fe-c24f-4f4d-aa87-d40af57c5455}</UniqueIdentifier>
     </Filter>
@@ -72,6 +69,9 @@
     </Filter>
     <Filter Include="소스 파일\30_최소신장트리">
       <UniqueIdentifier>{13eb3e90-665b-4ea4-9a5b-eb89fd930c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\16_정수론및조합론">
+      <UniqueIdentifier>{2ab1511e-68ff-4409-b973-01ec54bf4f11}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -325,37 +325,37 @@
       <Filter>소스 파일\15_그리디알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="5086_배수와약수.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="1037_약수.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="116533_소인수분해.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="2609_최대공약수최소공배수.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="2981_검문.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="3036_링.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="..\algorithms\11050_이항계수.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="11051_이항계수2.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="..\algorithms\9375_패션왕신해빈.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="..\algorithms\1676_팩토리얼 0의 개수.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="2004_조합0의개수.cpp">
-      <Filter>소스 파일\16_수학3</Filter>
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
     <ClCompile Include="10828_스택.cpp">
       <Filter>소스 파일\17_스택</Filter>
@@ -608,6 +608,12 @@
     </ClCompile>
     <ClCompile Include="9184_신나는함수실행.cpp">
       <Filter>소스 파일\14_동적계획법1</Filter>
+    </ClCompile>
+    <ClCompile Include="13305_주유소.cpp">
+      <Filter>소스 파일\15_그리디알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="1010_사다리놓기.cpp">
+      <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
