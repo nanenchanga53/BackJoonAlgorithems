@@ -615,5 +615,8 @@
     <ClCompile Include="1010_사다리놓기.cpp">
       <Filter>소스 파일\16_정수론및조합론</Filter>
     </ClCompile>
+    <ClCompile Include="17298_오큰수.cpp">
+      <Filter>소스 파일\17_스택</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
