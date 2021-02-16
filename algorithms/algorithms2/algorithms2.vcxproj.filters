@@ -621,5 +621,11 @@
     <ClCompile Include="11444_피보나치수6.cpp">
       <Filter>소스 파일\19_분할정복</Filter>
     </ClCompile>
+    <ClCompile Include="2629_양팔저울.cpp">
+      <Filter>소스 파일\22_동적계획법2</Filter>
+    </ClCompile>
+    <ClCompile Include="7562_나이트의이동.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
