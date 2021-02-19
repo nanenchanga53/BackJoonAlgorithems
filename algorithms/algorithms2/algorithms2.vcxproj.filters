@@ -627,5 +627,8 @@
     <ClCompile Include="7562_나이트의이동.cpp">
       <Filter>소스 파일\23_DFS와BFS</Filter>
     </ClCompile>
+    <ClCompile Include="1707_이분그래프.cpp">
+      <Filter>소스 파일\23_DFS와BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
